@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --color-wood-50: #FFF8F0;
+  --color-wood-100: #FAF6F0;
+  --color-wood-200: #F5EDE3;
+  --color-wood-300: #E8D5BF;
+  --color-wood-400: #C4A882;
+  --color-wood-500: #A0785A;
+  --color-wood-600: #8B6914;
+  --color-wood-700: #6B4226;
+  --color-wood-800: #4A2E1A;
+  --color-wood-900: #2D1A0E;
+
+  --color-gold-400: #D4A843;
+  --color-gold-500: #B8922E;
+  --color-gold-600: #9A7A1F;
+
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Source Serif 4", serif;
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-wood-100);
+  color: var(--color-wood-900);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-wood-200);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-wood-500);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-wood-700);
+}
+
+/* Image placeholder styling */
+.img-placeholder {
+  background: linear-gradient(135deg, var(--color-wood-300), var(--color-wood-200));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-wood-600);
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  text-align: center;
+  padding: 1rem;
+}
