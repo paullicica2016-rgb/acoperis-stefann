@@ -57,7 +57,7 @@ export const SERVICES = [
     fullDescription:
       "Cu o experiență de peste 20 de ani, echipa noastră realizează lucrări complete de dulgherie, de la mansardări locuibile care transformă podul casei într-un spațiu funcțional și elegant, până la terase și foișoare care completează perfect orice grădină. Utilizăm lemn tratat și tehnici moderne de construcție pentru durabilitate maximă. Fiecare proiect este adaptat cerințelor și bugetului dumneavoastră.",
     icon: "hammer",
-    image: "/images/gallery/lucrare-10.jpg",
+    image: "/images/gallery/lucrare-14.jpg",
     highlights: ["Mansarde locuibile", "Terase și foișoare", "Lemn tratat premium"],
   },
   {
@@ -68,7 +68,7 @@ export const SERVICES = [
     fullDescription:
       "Suntem specializați în montajul țiglei metalice de la cei mai renumiți producători din România și Europa — BILKA și Lindab. Oferim o gamă completă de profile și culori, montaj profesional cu echipă proprie și garanție la lucrare. Țigla metalică este soluția ideală pentru un acoperiș durabil, estetic și ușor de întreținut. Toate accesoriile — coame, jgheaburi, burlane — sunt incluse în ofertă.",
     icon: "layers",
-    image: "/images/gallery/lucrare-01.jpg",
+    image: "/images/gallery/lucrare-17.jpg",
     highlights: ["Profile BILKA & Lindab", "Garanție extinsă", "Montaj profesional"],
   },
   {
@@ -79,7 +79,7 @@ export const SERVICES = [
     fullDescription:
       "Țigla ceramică rămâne alegerea preferată pentru cei care doresc un acoperiș cu aspect tradițional și durabilitate excepțională. Montăm toate tipurile de țiglă ceramică — solzi, romană, Marseille sau orice alt model. Echipa noastră asigură montajul corect al fiecărei piese, respectând standardele tehnice pentru o etanșeitate perfectă și un aspect impecabil al acoperișului.",
     icon: "grid",
-    image: "/images/gallery/lucrare-09.jpg",
+    image: "/images/gallery/lucrare-18.jpg",
     highlights: ["Orice model ceramic", "Aspect tradițional", "Durabilitate excepțională"],
   },
   {
@@ -101,7 +101,7 @@ export const SERVICES = [
     fullDescription:
       "Sistemul pluvial este vital pentru protejarea fundației și a fațadei casei. Montăm sisteme pluviale complete din tablă vopsită, zinc sau PVC — jgheaburi semicirculare sau rectangulare, burlane, coturi, pâlnii și toate accesoriile necesare. Asigurăm panta corectă pentru scurgerea eficientă a apei și fixarea solidă a tuturor elementelor pentru rezistență maximă în timp.",
     icon: "droplets",
-    image: "/images/gallery/lucrare-13.jpg",
+    image: "/images/gallery/lucrare-16.jpg",
     highlights: ["Jgheaburi și burlane", "Tablă, zinc sau PVC", "Montaj la standarde"],
   },
   {
@@ -123,7 +123,7 @@ export const SERVICES = [
     fullDescription:
       "Hidroizolația este esențială pentru protejarea clădirii împotriva infiltrațiilor de apă. Aplicăm membrane bituminoase de înaltă calitate pe acoperișuri tip terasă, fundații, balcoane și orice suprafață care necesită impermeabilizare. Folosim tehnici profesionale de lipire cu flacără și suprapunere corectă a benzilor pentru o etanșeitate perfectă, garantată pe termen lung.",
     icon: "shield",
-    image: "/images/gallery/lucrare-06.jpg",
+    image: "/images/gallery/lucrare-21.jpg",
     highlights: ["Membrană bituminoasă", "Terase și fundații", "Etanșeitate garantată"],
   },
   {
@@ -134,7 +134,7 @@ export const SERVICES = [
     fullDescription:
       "Dacă acoperișul dumneavoastră arată uzat sau rugina a început să apară, vopsirea profesională este soluția ideală. Folosim vopsele speciale pentru metal, rezistente la intemperii și raze UV, care oferă protecție anticorozivă pe termen lung și un aspect estetic plăcut. Pregătim suprafața prin curățare, grunduire și apoi aplicăm vopseaua în mai multe straturi pentru rezultate durabile.",
     icon: "paintBucket",
-    image: "/images/gallery/lucrare-08.jpg",
+    image: "/images/gallery/lucrare-19.jpg",
     highlights: ["Protecție anticorozivă", "Vopsea rezistentă UV", "Aspect ca nou"],
   },
   {
@@ -145,7 +145,7 @@ export const SERVICES = [
     fullDescription:
       "Visul unei cabane sau căsuțe de lemn poate deveni realitate cu ajutorul echipei noastre. Realizăm construcții din lemn la cheie — de la proiectare și fundație până la acoperiș și finisaje. Folosim lemn tratat, selectat cu grijă, și tehnici tradiționale îmbinate cu soluții moderne. Fiecare proiect este unic și adaptat dorințelor dumneavoastră, fie că este vorba de o cabană de vacanță sau o căsuță de grădină.",
     icon: "home",
-    image: "/images/gallery/lucrare-12.jpg",
+    image: "/images/gallery/lucrare-20.jpg",
     highlights: ["Construcție la cheie", "Lemn tratat selectat", "Proiecte personalizate"],
   },
 ];

@@ -65,7 +65,7 @@ export default function QuickContactForm() {
     "w-full bg-[#231c14] border border-[#c4a882]/20 rounded-xl px-4 py-3.5 text-white placeholder-[#a89880]/50 font-[family-name:var(--font-body)] text-sm focus:outline-none focus:border-[#c4a882] focus:ring-1 focus:ring-[#c4a882]/30 transition-colors";
 
   return (
-    <section className="py-16 bg-[#1a1410]">
+    <section className="py-16 bg-[#3a3a3a]">
       <div className="max-w-xl mx-auto px-4 sm:px-6 lg:max-w-4xl lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-start">
           {/* Left — info */}

@@ -19,7 +19,7 @@ const stagger = {
 
 export default function DiscountCTA() {
   return (
-    <section className="py-16 bg-wood-100">
+    <section className="py-16 bg-white">
       <div className="max-w-xl mx-auto px-4 sm:px-6">
         <motion.div
           variants={stagger}

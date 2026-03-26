@@ -22,7 +22,7 @@ function StarRating({ rating }: { rating: number }) {
 
 export default function Testimonials() {
   return (
-    <section className="py-20 bg-wood-50">
+    <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
           title="Ce Spun Clienții Noștri"
@@ -40,10 +40,12 @@ export default function Testimonials() {
             <motion.div
               key={index}
               variants={fadeInUp}
-              className="bg-white rounded-xl p-6 shadow-sm border border-wood-200/30 hover:shadow-md transition-shadow duration-300"
+              className="bg-[#3a3a3a] rounded-2xl p-7 border-2 border-[#4a4a4a] hover:border-[#c4a882]/50 hover:shadow-lg shadow-md transition-all duration-300 relative overflow-hidden"
             >
+              {/* Decorative quote */}
+              <span className="absolute top-3 right-4 text-[#c4a882]/15 text-6xl font-serif leading-none select-none">&ldquo;</span>
               <StarRating rating={testimonial.rating} />
-              <p className="font-[family-name:var(--font-body)] text-wood-700 mt-4 mb-6 text-sm leading-relaxed italic">
+              <p className="font-[family-name:var(--font-body)] text-white mt-4 mb-6 text-sm leading-relaxed italic">
                 &ldquo;{testimonial.text}&rdquo;
               </p>
               <div className="flex items-center gap-3">
@@ -51,10 +53,10 @@ export default function Testimonials() {
                   {testimonial.name.charAt(0)}
                 </div>
                 <div>
-                  <p className="font-[family-name:var(--font-heading)] font-semibold text-wood-800 text-sm">
+                  <p className="font-[family-name:var(--font-heading)] font-semibold text-white text-sm">
                     {testimonial.name}
                   </p>
-                  <p className="font-[family-name:var(--font-body)] text-wood-500 text-xs">
+                  <p className="font-[family-name:var(--font-body)] text-[#c4a882] text-xs">
                     {testimonial.city}
                   </p>
                 </div>

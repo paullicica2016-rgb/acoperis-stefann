@@ -12,33 +12,57 @@ const quickLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-wood-800 text-wood-200">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-          {/* About */}
+    <footer className="bg-[#2a2a2a] text-white">
+      {/* Top section — CTA banner */}
+      <div className="bg-[#c4a882] py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div>
-            <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-4">
+            <h3 className="font-[family-name:var(--font-heading)] text-xl sm:text-2xl font-bold text-[#1a1410]">
+              Ai nevoie de un acoperiș nou?
+            </h3>
+            <p className="font-[family-name:var(--font-body)] text-[#1a1410]/70 text-sm mt-1">
+              Sună acum pentru o ofertă gratuită, fără obligații.
+            </p>
+          </div>
+          <a
+            href={SITE_CONFIG.phoneLink}
+            className="flex items-center gap-2 bg-[#1a1410] hover:bg-[#2a2218] text-white px-6 py-3 rounded-xl font-[family-name:var(--font-body)] font-semibold text-sm transition-colors"
+          >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+            </svg>
+            {SITE_CONFIG.phone}
+          </a>
+        </div>
+      </div>
+
+      {/* Main footer */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* Brand */}
+          <div className="sm:col-span-2 lg:col-span-1">
+            <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold italic text-white mb-1">
               Acoperișuri Ștefan
             </h3>
-            <p className="text-wood-300 text-sm leading-relaxed font-[family-name:var(--font-body)]">
-              Cu peste 20 de ani de experiență, oferim servicii complete de
-              montaj și reparații acoperișuri în 6 județe din Transilvania.
-              Calitate, seriozitate și prețuri corecte.
+            <span className="block h-px w-16 bg-[#c4a882] mb-4" />
+            <p className="text-[#a0a0a0] text-sm leading-relaxed font-[family-name:var(--font-body)]">
+              Montaj și reparații acoperișuri în Transilvania. Peste {SITE_CONFIG.experience} ani de experiență, {SITE_CONFIG.completedProjects}+ lucrări finalizate.
             </p>
           </div>
 
-          {/* Quick Links */}
+          {/* Links */}
           <div>
-            <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-4">
-              Link-uri Rapide
-            </h3>
-            <ul className="space-y-2">
+            <h4 className="font-[family-name:var(--font-heading)] text-sm font-bold uppercase tracking-[0.15em] text-[#c4a882] mb-4">
+              Navigare
+            </h4>
+            <ul className="space-y-2.5">
               {quickLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-wood-300 hover:text-white text-sm transition-colors font-[family-name:var(--font-body)]"
+                    className="text-[#a0a0a0] hover:text-white text-sm transition-colors font-[family-name:var(--font-body)] flex items-center gap-2"
                   >
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#c4a882]/40" />
                     {link.label}
                   </Link>
                 </li>
@@ -46,55 +70,86 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Services */}
+          <div>
+            <h4 className="font-[family-name:var(--font-heading)] text-sm font-bold uppercase tracking-[0.15em] text-[#c4a882] mb-4">
+              Servicii
+            </h4>
+            <ul className="space-y-2.5">
+              {["Montaj țiglă metalică", "Montaj țiglă ceramică", "Dulgherie & mansardări", "Hidroizolații", "Reparații urgente"].map((s) => (
+                <li key={s}>
+                  <span className="text-[#a0a0a0] text-sm font-[family-name:var(--font-body)] flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#c4a882]/40" />
+                    {s}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
           {/* Contact */}
           <div>
-            <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-4">
+            <h4 className="font-[family-name:var(--font-heading)] text-sm font-bold uppercase tracking-[0.15em] text-[#c4a882] mb-4">
               Contact
-            </h3>
+            </h4>
             <div className="space-y-3 text-sm font-[family-name:var(--font-body)]">
               <a
                 href={SITE_CONFIG.phoneLink}
-                className="flex items-center gap-2 text-wood-300 hover:text-white transition-colors"
+                className="flex items-center gap-3 text-[#a0a0a0] hover:text-white transition-colors"
               >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                </svg>
+                <div className="w-8 h-8 rounded-lg bg-[#3a3a3a] flex items-center justify-center">
+                  <svg className="w-4 h-4 text-[#c4a882]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                </div>
                 {SITE_CONFIG.phone}
               </a>
               <a
                 href={SITE_CONFIG.whatsappMessage}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-wood-300 hover:text-white transition-colors"
+                className="flex items-center gap-3 text-[#a0a0a0] hover:text-white transition-colors"
               >
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-                </svg>
+                <div className="w-8 h-8 rounded-lg bg-[#3a3a3a] flex items-center justify-center">
+                  <svg className="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                  </svg>
+                </div>
                 WhatsApp
               </a>
-              <p className="text-wood-400 pt-1">{SITE_CONFIG.workSchedule}</p>
+              <div className="flex items-center gap-3 text-[#a0a0a0]">
+                <div className="w-8 h-8 rounded-lg bg-[#3a3a3a] flex items-center justify-center">
+                  <svg className="w-4 h-4 text-[#c4a882]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                {SITE_CONFIG.workSchedule}
+              </div>
             </div>
           </div>
         </div>
+      </div>
 
-        {/* Divider */}
-        <div className="border-t border-wood-700 mt-12 pt-8">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-wood-400 font-[family-name:var(--font-body)]">
+      {/* Bottom bar */}
+      <div className="border-t border-[#3a3a3a]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-[#707070] font-[family-name:var(--font-body)]">
             <p>{SITE_CONFIG.copyright}</p>
             <div className="flex items-center gap-4">
               <a
                 href={SITE_CONFIG.anpcUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-wood-200 transition-colors"
+                className="hover:text-white transition-colors"
               >
                 ANPC
               </a>
+              <span className="w-1 h-1 rounded-full bg-[#505050]" />
               <a
                 href={SITE_CONFIG.salUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-wood-200 transition-colors"
+                className="hover:text-white transition-colors"
               >
                 SOL (SAL)
               </a>

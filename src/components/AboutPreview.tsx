@@ -55,7 +55,7 @@ const stats = [
 
 export default function AboutPreview() {
   return (
-    <section className="py-20 bg-wood-100">
+    <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center mb-16">
           {/* Photo collage — shows FIRST on mobile, second on desktop */}
@@ -108,7 +108,7 @@ export default function AboutPreview() {
               <em className="italic">excelență.</em>
             </h2>
 
-            <div className="space-y-3 font-[family-name:var(--font-body)] text-wood-600 leading-relaxed text-[15px]">
+            <div className="bg-[#3a3a3a] border-2 border-[#4a4a4a] rounded-2xl p-6 space-y-3 font-[family-name:var(--font-body)] text-white leading-relaxed text-[15px]">
               <p>
                 Avem experiența necesară pentru a crea și repara orice tip de
                 lucrare legată de acoperișuri, de la montaj de țiglă metalică și
@@ -129,7 +129,7 @@ export default function AboutPreview() {
               href={SITE_CONFIG.whatsappMessage}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 mt-6 bg-wood-800 hover:bg-wood-900 text-white px-7 py-3.5 text-sm tracking-[0.1em] uppercase font-[family-name:var(--font-body)] font-medium transition-colors"
+              className="inline-flex items-center gap-2 mt-6 bg-wood-800 hover:bg-wood-900 text-white px-7 py-3.5 rounded-xl text-sm tracking-[0.1em] uppercase font-[family-name:var(--font-body)] font-medium transition-colors"
             >
               Trimite poze pe WhatsApp
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

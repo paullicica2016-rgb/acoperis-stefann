@@ -58,7 +58,7 @@ const fadeUp = {
 
 export default function WhyChooseUs() {
   return (
-    <section className="py-20 bg-[#1a1410]">
+    <section className="py-20 bg-[#3a3a3a]">
       <div className="max-w-2xl mx-auto px-6 sm:px-8">
         {/* Section heading */}
         <motion.div
@@ -105,12 +105,12 @@ export default function WhyChooseUs() {
                 </p>
 
                 {/* Title */}
-                <h3 className="font-[family-name:var(--font-heading)] text-lg sm:text-xl font-bold text-white mb-2 leading-snug">
+                <h3 className="font-[family-name:var(--font-heading)] text-lg sm:text-xl font-bold text-[#c4a882] mb-2 leading-snug">
                   {reason.title}
                 </h3>
 
                 {/* Description */}
-                <p className="font-[family-name:var(--font-body)] text-sm text-[#a89880] leading-relaxed">
+                <p className="font-[family-name:var(--font-body)] text-sm text-white leading-relaxed">
                   {reason.description}
                 </p>
               </motion.div>

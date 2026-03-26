@@ -19,7 +19,7 @@ const stagger = {
 
 export default function CoveredZones() {
   return (
-    <section className="py-16 bg-white">
+    <section className="py-16 bg-[#3a3a3a]">
       <div className="max-w-xl mx-auto px-4 sm:px-6 lg:max-w-5xl lg:px-8">
         {/* Heading */}
         <motion.div
@@ -29,10 +29,10 @@ export default function CoveredZones() {
           viewport={{ once: true }}
           className="text-center mb-10"
         >
-          <h2 className="font-[family-name:var(--font-heading)] text-3xl sm:text-4xl font-bold text-wood-900 mb-3">
+          <h2 className="font-[family-name:var(--font-heading)] text-3xl sm:text-4xl font-bold text-white mb-3">
             Zonele Acoperite
           </h2>
-          <p className="font-[family-name:var(--font-body)] text-base text-wood-500">
+          <p className="font-[family-name:var(--font-body)] text-base text-[#c4a882]">
             Acoperim întreaga regiune a Transilvaniei
           </p>
         </motion.div>
@@ -49,7 +49,7 @@ export default function CoveredZones() {
             <motion.div
               key={index}
               variants={fadeUp}
-              className="flex items-center gap-4 px-5 py-4 rounded-xl bg-wood-50 border border-wood-200/50 hover:border-[#c4a882] hover:shadow-sm transition-all duration-300"
+              className="flex items-center gap-4 px-5 py-4 rounded-xl bg-[#444444] border border-[#555555] hover:border-[#c4a882] hover:shadow-sm transition-all duration-300"
             >
               <div className="flex-shrink-0 w-10 h-10 bg-[#c4a882]/15 rounded-lg flex items-center justify-center">
                 <svg className="w-5 h-5 text-[#c4a882]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -58,10 +58,10 @@ export default function CoveredZones() {
                 </svg>
               </div>
               <div>
-                <h3 className="font-[family-name:var(--font-heading)] text-base font-bold text-wood-800 leading-tight">
+                <h3 className="font-[family-name:var(--font-heading)] text-base font-bold text-white leading-tight">
                   {item.county}
                 </h3>
-                <p className="font-[family-name:var(--font-body)] text-sm text-wood-500">
+                <p className="font-[family-name:var(--font-body)] text-sm text-[#c4a882]">
                   {item.city}
                 </p>
               </div>

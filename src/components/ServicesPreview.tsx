@@ -7,7 +7,7 @@ import { fadeInUp, staggerContainer } from "@/lib/animations";
 
 export default function ServicesPreview() {
   return (
-    <section className="bg-[#1a1410] py-20">
+    <section className="bg-[#3a3a3a] py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section heading */}
         <motion.div
@@ -49,7 +49,7 @@ export default function ServicesPreview() {
                   loading="lazy"
                 />
                 {/* Number badge */}
-                <div className="absolute top-3 left-3 w-10 h-10 bg-[#1a1410]/80 backdrop-blur-sm flex items-center justify-center rounded-md">
+                <div className="absolute top-3 left-3 w-10 h-10 bg-[#3a3a3a]/80 backdrop-blur-sm flex items-center justify-center rounded-md">
                   <span className="font-[family-name:var(--font-heading)] text-[#c4a882] text-sm font-bold">
                     {String(index + 1).padStart(2, "0")}
                   </span>
@@ -57,19 +57,19 @@ export default function ServicesPreview() {
               </div>
 
               {/* Content */}
-              <div className="bg-[#231c14] rounded-b-xl p-6">
+              <div className="bg-[#444444] rounded-b-xl p-6">
                 {/* Label */}
                 <p className="font-[family-name:var(--font-body)] text-xs tracking-[0.2em] uppercase text-[#c4a882] mb-3">
                   Serviciu {String(index + 1).padStart(2, "0")}
                 </p>
 
                 {/* Title */}
-                <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-3 leading-snug">
+                <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-[#c4a882] mb-3 leading-snug">
                   {service.title}
                 </h3>
 
                 {/* Description */}
-                <p className="font-[family-name:var(--font-body)] text-sm text-[#a89880] leading-relaxed mb-5">
+                <p className="font-[family-name:var(--font-body)] text-sm text-white leading-relaxed mb-5">
                   {service.shortDescription}
                 </p>
 
