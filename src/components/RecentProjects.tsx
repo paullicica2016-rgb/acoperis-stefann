@@ -31,6 +31,13 @@ const PROJECTS = [
   "/images/gallery/lucrare-11.jpg",
   "/images/gallery/lucrare-12.jpg",
   "/images/gallery/lucrare-13.jpg",
+  "/images/gallery/lucrare-24.jpg",
+  "/images/gallery/lucrare-25.jpg",
+  "/images/gallery/lucrare-26.jpg",
+  "/images/gallery/lucrare-27.jpg",
+  "/images/gallery/lucrare-28.jpg",
+  "/images/gallery/lucrare-29.jpg",
+  "/images/gallery/lucrare-30.jpg",
 ];
 
 export default function RecentProjects() {

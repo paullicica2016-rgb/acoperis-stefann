@@ -234,6 +234,21 @@ export const GALLERY_IMAGES = [
   { src: "/images/gallery/lucrare-11.jpg", alt: "Montaj accesorii acoperiș" },
   { src: "/images/gallery/lucrare-12.jpg", alt: "Dulgherie structură lemn" },
   { src: "/images/gallery/lucrare-13.jpg", alt: "Cabană de lemn finalizată" },
+  { src: "/images/gallery/lucrare-14.jpg", alt: "Dulgherie decorativă casă lemn" },
+  { src: "/images/gallery/lucrare-15.jpg", alt: "Acoperiș țiglă ceramică" },
+  { src: "/images/gallery/lucrare-16.jpg", alt: "Montaj structură metalică acoperiș" },
+  { src: "/images/gallery/lucrare-17.jpg", alt: "Acoperiș țiglă metalică la apus" },
+  { src: "/images/gallery/lucrare-18.jpg", alt: "Muncitor montaj țiglă ceramică" },
+  { src: "/images/gallery/lucrare-19.jpg", alt: "Acoperiș ardezie" },
+  { src: "/images/gallery/lucrare-20.jpg", alt: "Terasă acoperită din lemn" },
+  { src: "/images/gallery/lucrare-21.jpg", alt: "Hidroizolație membrană bituminoasă" },
+  { src: "/images/gallery/lucrare-24.jpg", alt: "Casă cu acoperiș nou finalizat" },
+  { src: "/images/gallery/lucrare-25.jpg", alt: "Acoperiș roșu țiglă metalică" },
+  { src: "/images/gallery/lucrare-26.jpg", alt: "Acoperiș mansardă metalică" },
+  { src: "/images/gallery/lucrare-27.jpg", alt: "Structură lemn acoperiș în construcție" },
+  { src: "/images/gallery/lucrare-28.jpg", alt: "Casă cu acoperiș nou montaj complet" },
+  { src: "/images/gallery/lucrare-29.jpg", alt: "Țiglă ceramică colorată montaj" },
+  { src: "/images/gallery/lucrare-30.jpg", alt: "Montaj acoperiș și structură lemn" },
 ];
 
 // ============================================================
