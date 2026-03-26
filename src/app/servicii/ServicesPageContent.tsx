@@ -38,10 +38,13 @@ export default function ServicesPageContent() {
                   viewport={{ once: true }}
                   className="w-full lg:w-1/2"
                 >
-                  <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-gradient-to-br from-wood-300 via-wood-200 to-wood-300 flex items-center justify-center">
-                    <span className="text-wood-500 font-[family-name:var(--font-body)] text-sm px-4 text-center">
-                      {service.title}
-                    </span>
+                  <div className="aspect-[4/3] rounded-2xl overflow-hidden">
+                    <img
+                      src={service.image}
+                      alt={service.title}
+                      className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                      loading="lazy"
+                    />
                   </div>
                 </motion.div>
 
