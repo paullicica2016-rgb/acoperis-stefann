@@ -52,7 +52,7 @@ export default function Navbar() {
                   useDarkText ? "text-lg text-wood-800 group-hover:text-wood-600" : "text-xl text-white group-hover:text-white/80"
                 }`}
               >
-                Acoperișuri Ștefan
+                Acoperișuri România
               </span>
               <span className={`h-px w-full transition-all duration-300 ${useDarkText ? "bg-wood-400" : "bg-[#c4a882]/50"}`} />
             </div>
