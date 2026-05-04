@@ -27,9 +27,9 @@ const SLIDES = [
     image: "/images/hero/slide3.jpg",
     label: `${SITE_CONFIG.experience}+ Ani · ${SITE_CONFIG.completedProjects}+ Lucrări`,
     heading: "Acoperișuri în",
-    headingAccent: "6 județe din Transilvania.",
+    headingAccent: "toată România.",
     description:
-      `Hunedoara, Cluj, Mureș, Alba, Sibiu, Bistrița-Năsăud. Echipă proprie de ${SITE_CONFIG.teamSize} meșteri.`,
+      `Lucrăm în toate județele din România. Echipă proprie de ${SITE_CONFIG.teamSize} meșteri, deviz gratuit.`,
   },
 ];
 

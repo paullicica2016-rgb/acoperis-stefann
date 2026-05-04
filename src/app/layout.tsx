@@ -22,11 +22,11 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://acoperisuri-stefan.ro"),
   title: {
     default:
-      "Montaj Acoperișuri și Reparații în Transilvania | Acoperișuri Ștefan",
+      "Montaj Acoperișuri și Reparații în Toată România | Acoperișuri Ștefan",
     template: "%s | Acoperișuri Ștefan – Montaj și Reparații Acoperișuri",
   },
   description:
-    "Montaj acoperișuri și reparații cu peste 20 de ani experiență în Hunedoara, Cluj, Mureș, Alba, Sibiu, Bistrița-Năsăud. Țiglă metalică BILKA & Lindab, țiglă ceramică, dulgherie, mansardări, hidroizolații. Echipă proprie de 10 meșteri. Garanție scrisă pe lucrare. Deviz gratuit. ☎ 0749 651 436",
+    "Montaj acoperișuri și reparații în toată România — cu peste 20 de ani experiență. Țiglă metalică BILKA & Lindab, țiglă ceramică, dulgherie, mansardări, hidroizolații. Cluj, București, Timișoara, Iași, Brașov, Constanța și toate județele. Garanție scrisă. Deviz gratuit. ☎ 0749 651 436",
   keywords: [
     // Servicii principale
     "montaj acoperis",
@@ -52,57 +52,58 @@ export const metadata: Metadata = {
     "terase lemn",
     "vopsire acoperis",
     // Branduri
-    "BILKA",
-    "Lindab",
-    "tigla BILKA",
-    "tigla Lindab",
-    // Județe - cu și fără diacritice
-    "acoperisuri Hunedoara",
-    "acoperișuri Hunedoara",
-    "montaj acoperis Hunedoara",
-    "reparatii acoperis Hunedoara",
-    "acoperisuri Deva",
-    "acoperișuri Deva",
-    "acoperisuri Cluj",
-    "acoperișuri Cluj",
-    "montaj acoperis Cluj-Napoca",
-    "acoperisuri Cluj-Napoca",
-    "acoperisuri Mures",
-    "acoperișuri Mureș",
-    "montaj acoperis Targu Mures",
-    "acoperisuri Targu-Mures",
-    "acoperișuri Târgu-Mureș",
-    "acoperisuri Alba",
-    "acoperișuri Alba",
-    "montaj acoperis Alba Iulia",
-    "acoperisuri Alba Iulia",
-    "acoperisuri Sibiu",
-    "acoperișuri Sibiu",
-    "montaj acoperis Sibiu",
-    "acoperisuri Bistrita-Nasaud",
-    "acoperișuri Bistrița-Năsăud",
-    "montaj acoperis Bistrita",
-    "acoperișuri Bistrița",
-    // Zone
+    "BILKA", "Lindab", "tigla BILKA", "tigla Lindab",
+    // Transilvania
+    "acoperisuri Cluj", "acoperișuri Cluj", "montaj acoperis Cluj-Napoca",
+    "acoperisuri Hunedoara", "montaj acoperis Deva",
+    "acoperisuri Mures", "montaj acoperis Targu Mures",
+    "acoperisuri Alba", "montaj acoperis Alba Iulia",
+    "acoperisuri Sibiu", "montaj acoperis Sibiu",
+    "acoperisuri Bistrita", "montaj acoperis Bistrita-Nasaud",
+    "acoperisuri Brasov", "montaj acoperis Brasov",
+    "acoperisuri Covasna", "acoperisuri Harghita", "acoperisuri Salaj",
+    // Moldova
+    "acoperisuri Iasi", "montaj acoperis Iasi",
+    "acoperisuri Bacau", "acoperisuri Suceava",
+    "acoperisuri Neamt", "acoperisuri Botosani", "acoperisuri Vaslui",
+    // Muntenia
+    "acoperisuri Bucuresti", "montaj acoperis Bucuresti",
+    "acoperisuri Prahova", "montaj acoperis Ploiesti",
+    "acoperisuri Arges", "montaj acoperis Pitesti",
+    "acoperisuri Dambovita", "acoperisuri Giurgiu",
+    "acoperisuri Ilfov", "acoperisuri Teleorman",
+    // Oltenia
+    "acoperisuri Dolj", "montaj acoperis Craiova",
+    "acoperisuri Gorj", "acoperisuri Valcea",
+    "acoperisuri Olt", "acoperisuri Mehedinti",
+    // Dobrogea
+    "acoperisuri Constanta", "montaj acoperis Constanta",
+    "acoperisuri Tulcea",
+    // Banat
+    "acoperisuri Timisoara", "montaj acoperis Timisoara",
+    "acoperisuri Arad", "acoperisuri Caras-Severin",
+    // Crisana & Maramures
+    "acoperisuri Oradea", "montaj acoperis Oradea",
+    "acoperisuri Baia Mare", "acoperisuri Satu Mare",
+    // Câmpia Română
+    "acoperisuri Galati", "acoperisuri Braila",
+    "acoperisuri Buzau", "acoperisuri Vrancea",
+    "acoperisuri Ialomita", "acoperisuri Calarasi",
+    // General Romania
+    "acoperisuri Romania", "acoperișuri România",
+    "firma acoperisuri Romania", "firmă acoperișuri toată România",
     "acoperisuri Transilvania",
-    "acoperișuri Transilvania",
-    "firma acoperisuri Transilvania",
-    "firmă acoperișuri Transilvania",
     // Long-tail
-    "montaj acoperis pret",
-    "cat costa un acoperis",
-    "firma montaj acoperis",
-    "echipa montaj acoperis",
-    "acoperis nou pret",
-    "reparatie acoperis urgenta",
-    "acoperis tigla metalica pret",
-    "mansardare pret",
-    "hidroizolatie acoperis",
+    "montaj acoperis pret", "cat costa un acoperis",
+    "firma montaj acoperis", "echipa montaj acoperis",
+    "acoperis nou pret", "reparatie acoperis urgenta",
+    "acoperis tigla metalica pret", "mansardare pret",
+    "hidroizolatie acoperis", "deviz gratuit acoperis",
   ],
   openGraph: {
-    title: "Acoperișuri Ștefan – Montaj și Reparații Acoperișuri în Transilvania",
+    title: "Acoperișuri Ștefan – Montaj și Reparații Acoperișuri în Toată România",
     description:
-      "Peste 20 ani experiență, 200+ lucrări finalizate. Montaj țiglă metalică BILKA & Lindab, țiglă ceramică, mansardări, hidroizolații. Hunedoara, Cluj, Mureș, Alba, Sibiu, Bistrița-Năsăud. Deviz gratuit ☎ 0749 651 436",
+      "Peste 20 ani experiență, 200+ lucrări finalizate. Montaj țiglă metalică BILKA & Lindab, țiglă ceramică, mansardări, hidroizolații. Lucrăm în toate județele din România. Deviz gratuit ☎ 0749 651 436",
     type: "website",
     locale: "ro_RO",
     siteName: "Acoperișuri Ștefan",
@@ -131,7 +132,7 @@ const localBusinessSchema = {
   name: SITE_CONFIG.name,
   alternateName: "Acoperișuri Ștefan",
   description:
-    "Firmă specializată în montaj și reparații acoperișuri cu peste 20 de ani experiență în Transilvania. Țiglă metalică BILKA & Lindab, țiglă ceramică, dulgherie, mansardări, hidroizolații, cabane din lemn.",
+    "Firmă specializată în montaj și reparații acoperișuri cu peste 20 de ani experiență. Lucrăm în toate județele din România. Țiglă metalică BILKA & Lindab, țiglă ceramică, dulgherie, mansardări, hidroizolații, cabane din lemn.",
   telephone: "+40749651436",
   url: "https://acoperisuri-stefan.ro",
   priceRange: "$$",
@@ -143,38 +144,10 @@ const localBusinessSchema = {
     "@type": "QuantitativeValue",
     value: 10,
   },
-  areaServed: [
-    {
-      "@type": "County",
-      name: "Hunedoara",
-      containedInPlace: { "@type": "State", name: "Transilvania, România" },
-    },
-    {
-      "@type": "County",
-      name: "Cluj",
-      containedInPlace: { "@type": "State", name: "Transilvania, România" },
-    },
-    {
-      "@type": "County",
-      name: "Mureș",
-      containedInPlace: { "@type": "State", name: "Transilvania, România" },
-    },
-    {
-      "@type": "County",
-      name: "Alba",
-      containedInPlace: { "@type": "State", name: "Transilvania, România" },
-    },
-    {
-      "@type": "County",
-      name: "Sibiu",
-      containedInPlace: { "@type": "State", name: "Transilvania, România" },
-    },
-    {
-      "@type": "County",
-      name: "Bistrița-Năsăud",
-      containedInPlace: { "@type": "State", name: "Transilvania, România" },
-    },
-  ],
+  areaServed: {
+    "@type": "Country",
+    name: "România",
+  },
   address: {
     "@type": "PostalAddress",
     addressRegion: "Hunedoara",

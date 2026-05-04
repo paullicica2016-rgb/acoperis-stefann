@@ -15,7 +15,7 @@ export const SITE_CONFIG = {
   experience: 20,
   completedProjects: 200,
   teamSize: 10,
-  counties: 6,
+  counties: 41,
   discountMin: 10,
   discountMax: 20,
   workSchedule: "Luni – Sâmbătă: 07:00 – 19:00",
@@ -34,15 +34,62 @@ export const EMAILJS_CONFIG = {
 };
 
 // ============================================================
-// JUDEȚE ACOPERITE
+// JUDEȚE ACOPERITE — Toată România
 // ============================================================
 export const COUNTIES = [
-  { county: "Hunedoara", city: "Deva" },
-  { county: "Mureș", city: "Târgu-Mureș" },
-  { county: "Cluj", city: "Cluj-Napoca" },
-  { county: "Alba", city: "Alba Iulia" },
-  { county: "Sibiu", city: "Sibiu" },
-  { county: "Bistrița-Năsăud", city: "Bistrița" },
+  // Transilvania
+  { county: "Hunedoara", city: "Deva", region: "Transilvania" },
+  { county: "Cluj", city: "Cluj-Napoca", region: "Transilvania" },
+  { county: "Mureș", city: "Târgu-Mureș", region: "Transilvania" },
+  { county: "Alba", city: "Alba Iulia", region: "Transilvania" },
+  { county: "Sibiu", city: "Sibiu", region: "Transilvania" },
+  { county: "Bistrița-Năsăud", city: "Bistrița", region: "Transilvania" },
+  { county: "Brașov", city: "Brașov", region: "Transilvania" },
+  { county: "Covasna", city: "Sfântu Gheorghe", region: "Transilvania" },
+  { county: "Harghita", city: "Miercurea Ciuc", region: "Transilvania" },
+  { county: "Sălaj", city: "Zalău", region: "Transilvania" },
+  // Moldova
+  { county: "Bacău", city: "Bacău", region: "Moldova" },
+  { county: "Botoșani", city: "Botoșani", region: "Moldova" },
+  { county: "Iași", city: "Iași", region: "Moldova" },
+  { county: "Neamț", city: "Piatra Neamț", region: "Moldova" },
+  { county: "Suceava", city: "Suceava", region: "Moldova" },
+  { county: "Vaslui", city: "Vaslui", region: "Moldova" },
+  // Muntenia
+  { county: "Argeș", city: "Pitești", region: "Muntenia" },
+  { county: "Dâmbovița", city: "Târgoviște", region: "Muntenia" },
+  { county: "Giurgiu", city: "Giurgiu", region: "Muntenia" },
+  { county: "Ilfov", city: "Buftea", region: "Muntenia" },
+  { county: "Prahova", city: "Ploiești", region: "Muntenia" },
+  { county: "Teleorman", city: "Alexandria", region: "Muntenia" },
+  { county: "București", city: "București", region: "Muntenia" },
+  // Oltenia
+  { county: "Dolj", city: "Craiova", region: "Oltenia" },
+  { county: "Gorj", city: "Târgu Jiu", region: "Oltenia" },
+  { county: "Mehedinți", city: "Drobeta-Turnu Severin", region: "Oltenia" },
+  { county: "Olt", city: "Slatina", region: "Oltenia" },
+  { county: "Vâlcea", city: "Râmnicu Vâlcea", region: "Oltenia" },
+  // Dobrogea
+  { county: "Constanța", city: "Constanța", region: "Dobrogea" },
+  { county: "Tulcea", city: "Tulcea", region: "Dobrogea" },
+  // Banat
+  { county: "Arad", city: "Arad", region: "Banat" },
+  { county: "Caraș-Severin", city: "Reșița", region: "Banat" },
+  { county: "Timiș", city: "Timișoara", region: "Banat" },
+  // Crișana
+  { county: "Bihor", city: "Oradea", region: "Crișana" },
+  // Maramureș
+  { county: "Maramureș", city: "Baia Mare", region: "Maramureș" },
+  { county: "Satu Mare", city: "Satu Mare", region: "Maramureș" },
+  // Bucovina
+  { county: "Suceava", city: "Suceava", region: "Bucovina" },
+  // Câmpia Română
+  { county: "Brăila", city: "Brăila", region: "Câmpia Română" },
+  { county: "Buzău", city: "Buzău", region: "Câmpia Română" },
+  { county: "Călărași", city: "Călărași", region: "Câmpia Română" },
+  { county: "Galați", city: "Galați", region: "Câmpia Română" },
+  { county: "Ialomița", city: "Slobozia", region: "Câmpia Română" },
+  { county: "Vrancea", city: "Focșani", region: "Câmpia Română" },
 ];
 
 // ============================================================
@@ -272,8 +319,8 @@ export const WHY_CHOOSE_US = [
   },
   {
     icon: "mapPin",
-    title: "6 Județe Acoperite",
-    description: "Acoperim întreaga regiune a Transilvaniei — de la Deva la Bistrița.",
+    title: "Toată România",
+    description: "Acoperim toate județele din România — de la Cluj la Constanța.",
   },
   {
     icon: "award",
