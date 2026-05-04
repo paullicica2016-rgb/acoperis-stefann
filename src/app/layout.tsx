@@ -22,8 +22,8 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://acoperisuri-stefan.ro"),
   title: {
     default:
-      "Montaj Acoperișuri și Reparații în Toată România | Acoperișuri Ștefan",
-    template: "%s | Acoperișuri Ștefan – Montaj și Reparații Acoperișuri",
+      "Montaj Acoperișuri și Reparații în Toată România | Acoperișuri România",
+    template: "%s | Acoperișuri România – Montaj și Reparații Acoperișuri",
   },
   description:
     "Montaj acoperișuri și reparații în toată România — cu peste 20 de ani experiență. Țiglă metalică BILKA & Lindab, țiglă ceramică, dulgherie, mansardări, hidroizolații. Cluj, București, Timișoara, Iași, Brașov, Constanța și toate județele. Garanție scrisă. Deviz gratuit. ☎ 0749 651 436",
@@ -101,12 +101,12 @@ export const metadata: Metadata = {
     "hidroizolatie acoperis", "deviz gratuit acoperis",
   ],
   openGraph: {
-    title: "Acoperișuri Ștefan – Montaj și Reparații Acoperișuri în Toată România",
+    title: "Acoperișuri România – Montaj și Reparații Acoperișuri în Toată România",
     description:
       "Peste 20 ani experiență, 200+ lucrări finalizate. Montaj țiglă metalică BILKA & Lindab, țiglă ceramică, mansardări, hidroizolații. Lucrăm în toate județele din România. Deviz gratuit ☎ 0749 651 436",
     type: "website",
     locale: "ro_RO",
-    siteName: "Acoperișuri Ștefan",
+    siteName: "Acoperișuri România",
   },
   robots: {
     index: true,
@@ -130,7 +130,7 @@ const localBusinessSchema = {
   "@type": "RoofingContractor",
   "@id": "https://acoperisuri-stefan.ro/#business",
   name: SITE_CONFIG.name,
-  alternateName: "Acoperișuri Ștefan",
+  alternateName: "Acoperișuri România",
   description:
     "Firmă specializată în montaj și reparații acoperișuri cu peste 20 de ani experiență. Lucrăm în toate județele din România. Țiglă metalică BILKA & Lindab, țiglă ceramică, dulgherie, mansardări, hidroizolații, cabane din lemn.",
   telephone: "+40749651436",
@@ -224,7 +224,7 @@ const localBusinessSchema = {
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "Acoperișuri Ștefan",
+  name: "Acoperișuri România",
   url: "https://acoperisuri-stefan.ro",
   description: "Montaj și reparații acoperișuri în Transilvania",
   inLanguage: "ro",

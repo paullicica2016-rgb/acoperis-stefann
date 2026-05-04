@@ -4,8 +4,8 @@
 // ============================================================
 
 export const SITE_CONFIG = {
-  name: "Montaj Acoperișuri Reparații Ștefan",
-  shortName: "Acoperișuri Ștefan",
+  name: "Montaj Acoperișuri Reparații România",
+  shortName: "Acoperișuri România",
   phone: "0749 651 436",
   phoneLink: "tel:+40749651436",
   whatsapp: "https://wa.me/40749651436",

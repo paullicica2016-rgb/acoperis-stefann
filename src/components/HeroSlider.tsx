@@ -9,7 +9,7 @@ import { SITE_CONFIG } from "@/data/constants";
 const SLIDES = [
   {
     image: "/images/hero/slide1.jpg",
-    label: "Montaj Acoperișuri · Transilvania",
+    label: "Montaj Acoperișuri · România",
     heading: "Montaj acoperișuri",
     headingAccent: "și reparații.",
     description:
